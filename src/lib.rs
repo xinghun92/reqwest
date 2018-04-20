@@ -144,7 +144,7 @@ pub use url::Url;
 pub use url::ParseError as UrlError;
 
 pub use self::client::{Client, ClientBuilder};
-pub use self::error::{Error, Result};
+pub use self::error::{Error, Result, from};
 pub use self::body::Body;
 pub use self::into_url::IntoUrl;
 pub use self::proxy::Proxy;
